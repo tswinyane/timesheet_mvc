@@ -2,7 +2,7 @@
     
     session_start();
     //include "config.php";
-    //include_once('header2.php');
+    include_once('header.php');
     //include "functions.php";
     
     /*if(isset($_SESSION['userid']))
@@ -58,7 +58,7 @@
 	<p><br/><br/></p>
 	<div class="container">
     	<!--<p class="text-center"><img style="width: 30%;" src="https://www.foundation.co.za/images/fpd-logo.png" /></p>-->
-   		<h3 align="center">FPD Timesheet Login</h3>   
+   		<h3 align="center">Timesheet Login</h3>   
    
    		<!--<form name="frmLogin" method="post" action="check-login.php" onSubmit="javascript:return validation(this);">--> 
 		   <form name="frmLogin" method="post" action="" >    
