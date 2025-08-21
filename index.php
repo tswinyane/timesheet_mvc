@@ -56,9 +56,8 @@
 
 <body>
 	<p><br/><br/></p>
-	<div class="container">
-    	<!--<p class="text-center"><img style="width: 30%;" src="https://www.foundation.co.za/images/fpd-logo.png" /></p>-->
-   		<h3 align="center">Timesheet Login</h3>   
+	<div class="container">    	
+   		<h3 align="center">Login</h3>   
    
    		<!--<form name="frmLogin" method="post" action="check-login.php" onSubmit="javascript:return validation(this);">--> 
 		   <form name="frmLogin" method="post" action="" >    
