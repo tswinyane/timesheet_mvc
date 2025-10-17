@@ -12,9 +12,10 @@
     }*/
     
     //if(isset($_POST['login']) && $_POST['username'] !=NULL && $_POST['password'] != NULL) {
-    if(isset($_POST['username']) && $_POST['username'] !=NULL &&  isset($_POST['password']) && $_POST['password']!=NULL ) {
-    	//echo '<pre>';
-    	//print_r($_POST);exit();
+    //if(isset($_POST['username']) && $_POST['username'] !=NULL &&  isset($_POST['password']) && $_POST['password']!=NULL ) {
+    if(isset($_POST['login'])) { 
+		echo '<pre>';
+    	print_r($_POST);exit();
     	$emp_code = $_POST['username'];
     	$emp_passwd = $_POST['password'];
     
